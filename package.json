@@ -1,0 +1,14 @@
+{
+  "name": "hollowmooncrafts.com",
+  "version": "1.0.0",
+  "description": "hollowmooncrafts.com a website of crafts. -work in progress-",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.3.4"
+  }
+}
