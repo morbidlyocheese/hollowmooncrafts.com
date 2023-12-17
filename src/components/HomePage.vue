@@ -2,7 +2,7 @@
     <div class="page-container">
         <div class="content-container">
             <div class="content">
-                <h1 class="name">hollowmoon crafts</h1>
+                <h1 class="name">hollowmooncrafts</h1>
             </div>
         </div>
     </div>
