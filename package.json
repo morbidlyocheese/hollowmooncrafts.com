@@ -4,11 +4,22 @@
   "description": "hollowmooncrafts.com a website of crafts. -work in progress-",
   "main": "main.js",
   "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
     "test": "npm run dev"
   },
-  "author": "",
+  "author": {
+    "name": "damien jacobson",
+    "url": "hollowmooncrafts.com"
+  },
   "license": "ISC",
   "dependencies": {
-    "vue": "^3.3.4"
+    "core-js": "^3.34.0",
+    "vue": "^3.3.12",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8"
   }
 }
