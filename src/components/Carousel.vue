@@ -127,11 +127,11 @@ export default {
 
 .card {
     width: 300px;
-    margin-right: 100px;
+    height: 300px;
+    margin: 80px;
     display: inline-flex;
 
     /* optional */
-    height: 300px;
     background-color: #d3b3c7;
     color: white;
     border-radius: 4px;
@@ -143,7 +143,10 @@ export default {
 button {
     margin-right: 5px;
     margin-top: 10px;
-    color: #b0bedd;
+    padding: 8px;
+    border: 0;
+    border-radius: 2px;
+    color: white;
     background-color: #a8a3c8;
 }
 </style>
