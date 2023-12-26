@@ -4,6 +4,7 @@
             <div class="content">
                 <h1 class="name">hollowmooncrafts</h1>
                 <Navbar/>
+                <Carousel/>
             </div>
         </div>
     </div>
@@ -11,10 +12,12 @@
 
 <script>
 import Navbar from './Navbar.vue';
+import Carousel from './Carousel.vue';
 
 export default {
     components: {
-        Navbar
+        Navbar,
+        Carousel
     }
 }
 </script>

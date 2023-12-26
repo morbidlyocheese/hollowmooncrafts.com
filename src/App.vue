@@ -1,17 +1,14 @@
 <template>
     <HomePage class="page-container"/>
-    <Carousel/>
 </template>
 
 <script>
 import HomePage from './components/HomePage.vue';
-import Carousel from './components/Carousel.vue';
 
 export default {
     name: 'App',
     components: {
         HomePage,
-        Carousel
         // other links
     }
 }
