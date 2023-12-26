@@ -13,6 +13,9 @@ export default {
     data() {
         return {
             links: [
+                { 
+                    name: 'home', url: '/', label: 'home' 
+                },
                 {
                     name: 'contact', url: '/contact', label: 'contact'
                 },
