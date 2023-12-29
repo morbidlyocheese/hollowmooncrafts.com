@@ -39,4 +39,8 @@ export default {
     .nav-content {
         margin-bottom: 20px;
     }
+
+    .nav-page-container {
+        margin: 20px;
+    }
 </style>

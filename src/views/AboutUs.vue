@@ -2,7 +2,8 @@
     <div class="page-container">
         <div class="content-container">
             <div class="content">
-                about us
+                <Navbar/>
+                Custom crafts, specializing in crochet stuffed animals and more.
             </div>
         </div>
     </div>
@@ -12,7 +13,9 @@
 import Navbar from '../components/Navbar.vue';
 
 export default {
-
+    components: {
+        Navbar
+    }
 }
 </script>
 
