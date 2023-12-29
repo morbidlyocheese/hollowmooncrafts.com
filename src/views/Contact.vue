@@ -2,32 +2,23 @@
     <div class="page-container">
         <div class="content-container">
             <div class="content">
-                <h1 class="name">hollowmooncrafts</h1>
                 <Navbar/>
-                <Carousel/>
+                contact info
             </div>
         </div>
     </div>
 </template>
 
 <script>
-import Navbar from './Navbar.vue';
-import Carousel from './Carousel.vue';
+import Navbar from '../components/Navbar.vue';
 
 export default {
     components: {
-        Navbar,
-        Carousel
+        Navbar
     }
 }
 </script>
 
 <style>
-    div {
-        background-color: #b0bedd;
-    }
 
-    .name {
-        color: white;
-    }
 </style>

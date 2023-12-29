@@ -1,9 +1,10 @@
 <template>
-    <HomePage class="page-container"/>
+    <router-view></router-view>
+    <!-- <HomePage class="page-container"/> -->
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue';
+import HomePage from './views/HomePage.vue';
 
 export default {
     name: 'App',

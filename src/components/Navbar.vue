@@ -20,7 +20,7 @@ export default {
                     name: 'contact', url: '/contact', label: 'contact'
                 },
                 {
-                    name: 'about us', url: '/aboutus', label: 'about us'
+                    name: 'about us', url: '/about', label: 'about us'
                 },
                 // { name: '', url: '', label: '' },
             ]
