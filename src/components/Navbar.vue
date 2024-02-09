@@ -23,6 +23,9 @@ export default {
                 {
                     name: 'about us', url: '/about', label: 'about us'
                 },
+                { 
+                    name: 'gallery', url: '/gallery', label: 'gallery'
+                },
                 // { name: '', url: '', label: '' },
             ]
         }

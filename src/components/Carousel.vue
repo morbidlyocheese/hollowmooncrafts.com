@@ -15,18 +15,18 @@ export default {
     data() {
         return {
             cards: [
-                { label: '', img: "bees.jpg"},
-                { label: '', img: "clouds.jpg"},
+                // { label: '', img: "bees.jpg"},
+                // { label: '', img: "clouds.jpg"},
                 { label: '', img: "cow.jpg"},
                 { label: '', img: "giraffe.jpg"},
                 { label: '', img: "lion.jpg"},
                 { label: '', img: "moon.jpg"},
                 { label: '', img: "moose.jpg"},
                 { label: '', img: "octopus.jpg"},
-                { label: '', img: "octopi.jpg"},
+                // { label: '', img: "octopi.jpg"},
                 { label: '', img: "sloth.jpg"},
                 { label: '', img: "turtle.jpg"},
-                { label: '', img: "shark.jpg"},
+                // { label: '', img: "shark.jpg"},
                 { label: '', img: "mooshroom.jpg"},
                 { label: '', img: "reindeer.jpg"},
                 // { label: '', img: 'https://simpleicons.org/icons/4d.svg'},
