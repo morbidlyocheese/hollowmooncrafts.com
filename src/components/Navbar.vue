@@ -2,7 +2,9 @@
     <div class="nav-page-container">
         <div class="nav-content-container">
             <div class="nav-content">
-                <h1 class="name">HollowMoonCrafts</h1>
+                <a href="/">
+                    <h1 class="name">HollowMoonCrafts</h1>
+                </a>
                 <a v-for="link in links" :key='link.label' :href='link.url' class="links"> {{ link.name }} </a>
             </div>
         </div>
@@ -14,17 +16,17 @@ export default {
     data() {
         return {
             links: [
-                { 
-                    name: 'home', url: '/', label: 'home' 
+                // { 
+                //     name: 'Home', url: '/', label: 'home' 
+                // },
+                {
+                    name: 'Contact', url: '/contact', label: 'contact'
                 },
                 {
-                    name: 'contact', url: '/contact', label: 'contact'
-                },
-                {
-                    name: 'about us', url: '/about', label: 'about us'
+                    name: 'About Us', url: '/about', label: 'about us'
                 },
                 { 
-                    name: 'gallery', url: '/gallery', label: 'gallery'
+                    name: 'Gallery', url: '/gallery', label: 'gallery'
                 },
                 // { name: '', url: '', label: '' },
             ]

@@ -29,6 +29,7 @@ export default {
                 { label: '', img: "moose.jpg" },
                 { label: '', img: "octopus.jpg" },
                 { label: '', img: "octopi.jpg"},
+                { label: '', img: "stingray.jpg"},
                 { label: '', img: "sloth.jpg" },
                 { label: '', img: "turtle.jpg" },
                 { label: '', img: "shark.jpg"},
@@ -39,6 +40,8 @@ export default {
                 { label: '', img: "dragon.jpg" },
                 { label: '', img: "blob.jpg" },
                 { label: '', img: "snail.jpg" },
+                { label: '', img: "blue cloud.jpg" },
+                { label: '', img: "gnome w beard.jpg" },
                 { label: '', img: "elephant.jpg" },
                 { label: '', img: "assorted animals.jpg" },
                 { label: '', img: "grinch n tree.jpg" },
@@ -54,23 +57,27 @@ export default {
 </script>
 
 <style>
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 30%);
-    grid-auto-rows: 150px;
-    column-gap: 10px;
-}
-.grid img {
-    object-fit: cover;
-    max-width: 100%;
-    vertical-align: middle;
-    border-radius: 5px;
-    width: 30%;
-    height: auto;
-    width: 30%;
-}
+    .content-container {
+        display: grid;
+        justify-content: center;
+    }
+    .grid-container {
+        display: grid;
+        /* justify-content: center; */
+        grid-template-columns: repeat(3, 30%);
+        grid-auto-rows: 150px;
+    }
+    .grid img {
+        object-fit: cover;
+        max-width: 100%;
+        /* vertical-align: middle; */
+        border-radius: 5px;
+        width: 30%;
+        height: auto;
+        width: 30%;
+    }
 
-.grid img:hover {
-    transform: scale(4.5);
-}
+    .grid img:hover {
+        transform: scale(4.5);
+    }
 </style>

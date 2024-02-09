@@ -15,22 +15,16 @@ export default {
     data() {
         return {
             cards: [
-                // { label: '', img: "bees.jpg"},
-                // { label: '', img: "clouds.jpg"},
                 { label: '', img: "cow.jpg"},
                 { label: '', img: "giraffe.jpg"},
                 { label: '', img: "lion.jpg"},
                 { label: '', img: "moon.jpg"},
                 { label: '', img: "moose.jpg"},
                 { label: '', img: "octopus.jpg"},
-                // { label: '', img: "octopi.jpg"},
                 { label: '', img: "sloth.jpg"},
                 { label: '', img: "turtle.jpg"},
-                // { label: '', img: "shark.jpg"},
                 { label: '', img: "mooshroom.jpg"},
-                { label: '', img: "reindeer.jpg"},
                 // { label: '', img: 'https://simpleicons.org/icons/4d.svg'},
-                // { label: '', img: 'https://simpleicons.org/icons/3m.svg'},
             ],
             innerStyles: {},
             step: '',
@@ -113,40 +107,39 @@ export default {
 </script>
 
 <style>
+    .carousel {
+        width: 900px;
+        height: 600px;
+        overflow: hidden;
+    }
 
-.carousel {
-    width: 1000px;
-    height: 600px;
-    overflow: hidden;
-}
+    .inner {
+        transition: transform 0.2s;
+        white-space: nowrap;
+    }
 
-.inner {
-    transition: transform 0.2s;
-    white-space: nowrap;
-}
+    .card {
+        width: 300px;
+        height: 300px;
+        margin: 80px;
+        display: inline-flex;
 
-.card {
-    width: 300px;
-    height: 300px;
-    margin: 80px;
-    display: inline-flex;
+        /* optional */
+        background-color: #d3b3c7;
+        color: white;
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+    }
 
     /* optional */
-    background-color: #d3b3c7;
-    color: white;
-    border-radius: 4px;
-    align-items: center;
-    justify-content: center;
-}
-
-/* optional */
-button {
-    margin-right: 5px;
-    margin-top: 10px;
-    padding: 8px;
-    border: 0;
-    border-radius: 2px;
-    color: white;
-    background-color: #a8a3c8;
-}
+    button {
+        margin-right: 5px;
+        margin-top: 10px;
+        padding: 8px;
+        border: 0;
+        border-radius: 2px;
+        color: white;
+        background-color: #a8a3c8;
+    }
 </style>

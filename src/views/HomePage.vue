@@ -3,6 +3,9 @@
         <div class="content-container">
             <div class="content">
                 <Navbar/>
+                <div class="body-text">
+                    Custom crafts, specializing in crochet stuffed animals and more.
+                </div>
                 <Carousel/>
             </div>
         </div>
@@ -22,8 +25,20 @@ export default {
 </script>
 
 <style>
-    div {
+    .content {
+        width: 90%;
+    }
+    .page-container {
+        display: grid;
+        justify-content: center;
+
         background-color: #b0bedd;
+        height: auto;
+    }
+
+    .body-text {
+        margin: 10px;
+        padding: 10px;
     }
 
     .name {
