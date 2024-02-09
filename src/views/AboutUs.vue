@@ -5,7 +5,7 @@
                 <Navbar/>
                 <div class="about-content">
                     <p class="about-text">
-                        HollowMoonCrafts started as an outlet for a need to create and put the vision out there. Now primarily focused on fiber art with a specialty in custom crocheted stuffed animals. The goal is to make this an inclusive endeavor that remains a safe space for all! 
+                        HollowMoonCrafts started as an outlet for creativity and a need to share a vision. Now primarily focused on fiber art with a specialty in custom crocheted stuffed animals. The goal is to make this an inclusive endeavor that remains a safe space for all! 
                     </p>
                     <img class="hmc-about" src="../assets/hmc.jpg" alt="hmc">
                 </div>

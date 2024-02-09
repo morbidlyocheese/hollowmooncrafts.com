@@ -15,12 +15,10 @@ export default {
     data() {
         return {
             cards: [
-                { label: '', img: "cow.jpg"},
                 { label: '', img: "giraffe.jpg"},
                 { label: '', img: "lion.jpg"},
                 { label: '', img: "moon.jpg"},
                 { label: '', img: "moose.jpg"},
-                { label: '', img: "octopus.jpg"},
                 { label: '', img: "sloth.jpg"},
                 { label: '', img: "turtle.jpg"},
                 { label: '', img: "mooshroom.jpg"},
