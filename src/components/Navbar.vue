@@ -2,6 +2,7 @@
     <div class="nav-page-container">
         <div class="nav-content-container">
             <div class="nav-content">
+                <h1 class="name">HollowMoonCrafts</h1>
                 <a v-for="link in links" :key='link.label' :href='link.url' class="links"> {{ link.name }} </a>
             </div>
         </div>
