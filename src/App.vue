@@ -1,6 +1,5 @@
 <template>
     <router-view></router-view>
-    <!-- <HomePage class="page-container"/> -->
 </template>
 
 <script>
@@ -9,8 +8,7 @@ import HomePage from './views/HomePage.vue';
 export default {
     name: 'App',
     components: {
-        HomePage,
-        // other links
+        HomePage
     }
 }
 
@@ -26,14 +24,12 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    margin-top: 60px;
+    /* margin-top: 20px; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #b0bedd;
 }
-
-/* <!-- .page-container {} --> */
 
 </style>

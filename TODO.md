@@ -16,4 +16,4 @@
 
 - FIX/BUG
     [ ] - navbar/logo & page alignment not consistent 
-        - gallery page
+        [x] - gallery page

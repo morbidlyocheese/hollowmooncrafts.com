@@ -7,6 +7,7 @@
                     Custom crafts, specializing in crochet stuffed animals and more.
                 </div>
                 <Carousel/>
+                <Footer/>
             </div>
         </div>
     </div>
@@ -15,11 +16,13 @@
 <script>
 import Navbar from '../components/Navbar.vue';
 import Carousel from '../components/Carousel.vue';
+import Footer from '../components/Footer.vue';
 
 export default {
     components: {
         Navbar,
-        Carousel
+        Carousel,
+        Footer
     }
 }
 </script>
@@ -31,7 +34,6 @@ export default {
     .page-container {
         display: grid;
         justify-content: center;
-
         background-color: #b0bedd;
         height: auto;
     }

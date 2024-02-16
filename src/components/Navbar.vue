@@ -35,6 +35,10 @@ export default {
 }</script>
 
 <style>
+    .nav-page-container {
+        {/* display: flex; */}
+        align-content: center;
+    }
     a {
         text-decoration: none;
         color: white;
@@ -46,7 +50,7 @@ export default {
         margin-bottom: 20px;
     }
 
-    .nav-page-container {
+    {/* .nav-page-container {
         margin: 20px;
-    }
+    } */}
 </style>
